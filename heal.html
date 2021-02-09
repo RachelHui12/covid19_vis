@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>全球疫情可视化</title>
+    <meta name="xsp" content="" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/data_text.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.css">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--header开始-->
+<div class="header">
+    <div class="header_logo fl">
+        <a href="#"><h2>全球疫情可视化</h2></a>
+    </div>
+    <div class="header_nav fl">
+        <ul>
+            <li>
+                <a href="index.html" >累计确诊</a>
+            </li>
+            <li>
+                <a href="nowconfirm.html">新增确诊</a>
+            </li>
+            <li>
+                <a href="dead.html">死亡数</a>
+            </li>
+            <li>
+                <a href="heal.html" class="nav_current">治愈数</a>
+            </li>
+            <li>
+                <a href="timeline.html" >时间序列</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--header结束-->
+
+<!--content开始-->
+<div class="data_content">
+
+
+    <div class="data_main">
+        <div class="main_center fl">
+            <div class="center_text">
+                <div class="main_title">
+                    <img src="img/title_3.png" alt="">
+                    全球治愈数诊分布地图
+                </div>
+                <div id="heal" style="width:100%;height:610px;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="data_bottom">
+        <div class="bottom_1 fl">
+            <div class="main_title">
+                <img src="img/title_6.png" alt="">
+                全球治愈率分布地图
+            </div>
+            <div id="healrate" style="width:100%;height:610px;"></div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+</body>
+<script src="js/jquery-2.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/echart.js"></script>
+<script src="js/world.js"></script>
+<script src="js/foundation-datepicker.js"></script>
+<script src="js/foundation-datepicker.zh-CN.js"></script>
+</html>

@@ -1,0 +1,178 @@
+.data_content{
+    /*overflow-x: hidden;*/
+    min-width: 1200px;
+    background-color: #081832;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    /* height: 100%; */
+}
+
+
+
+.data_content .data_main{
+    width: calc(100% - 40px);
+    margin-bottom: 40px;
+    height: 615px;
+    margin-left: 20px;
+}
+
+
+.data_content .data_main .main_center{
+    width: 80%;
+    margin:0 auto;
+    left:100px!important;
+    height: 610px;
+    float: left;
+}
+.data_content .data_main .main_right{
+    float: left;
+    margin-left: 60px;
+    color:#fff;
+    /* background-color: #034c6a; */
+    border-width: 2px;
+    height: 550px;
+    width: 150px;
+}
+.data_content .data_main .main_center .center_text{
+    width: 100% !important;
+    height: 610px;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #034c6a;
+    box-shadow:-10px 0px 15px #034c6a inset,   /*左边阴影*/
+    0px -10px 15px #034c6a inset,  /*上边阴影*/
+    10px 0px 15px #034c6a inset,  /*右边阴影*/
+    0px 10px 15px #034c6a inset;
+    position: relative;
+    /*background: url("../img/chart_map.png") no-repeat center ;*/
+}
+
+.data_content .data_main .main_center .main_title{
+    width: 250px;
+    height: 35px;
+    line-height: 33px;
+    background-color: #034c6a;
+    border-radius: 18px;
+    position: absolute;
+    top: -17px;
+    left:50%;
+    margin-left: -90px;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding-left: 45px;
+    z-index: 1000;
+}
+.data_content .data_main .main_center .main_title img{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+
+.data_content .data_bottom{
+    width: calc(100% - 40px);
+    height: 600px;
+    margin-left: 40px;
+}
+.data_content .data_bottom div{
+
+}
+.data_content .data_bottom .bottom_1{
+    width: 80%;
+    height: 600px;
+    box-shadow:-10px 0px 15px #034c6a inset,   /*左边阴影*/
+    0px -10px 15px #034c6a inset,  /*上边阴影*/
+    10px 0px 15px #034c6a inset,  /*右边阴影*/
+    0px 10px 15px #034c6a inset;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #034c6a;
+    /*background: url("../img/chart_5.png") no-repeat;*/
+}
+.data_content .data_bottom .bottom_center{
+    width: 52%;
+    height: 280px;
+}
+.data_content .data_bottom .bottom_2{
+    width: calc(50% - 35px);
+    height: 280px;
+    box-shadow:-10px 0px 15px #034c6a inset,   /*左边阴影*/
+    0px -10px 15px #034c6a inset,  /*上边阴影*/
+    10px 0px 15px #034c6a inset,  /*右边阴影*/
+    0px 10px 15px #034c6a inset;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #034c6a;
+    margin-left: 25px;
+    /*background: url("../img/chart_6.png") no-repeat;*/
+}
+.data_content .data_bottom .bottom_3{
+    width: calc(50% - 40px);
+    height: 280px;
+    box-shadow:-10px 0px 15px #034c6a inset,   /*左边阴影*/
+    0px -10px 15px #034c6a inset,  /*上边阴影*/
+    10px 0px 15px #034c6a inset,  /*右边阴影*/
+    0px 10px 15px #034c6a inset;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #034c6a;
+    /*background: url("../img/chart_7.png") no-repeat;*/
+    margin-left:25px;
+}
+.data_content .data_bottom .bottom_4{
+    width: 24%;
+    height: 280px;
+    box-shadow:-10px 0px 15px #034c6a inset,   /*左边阴影*/
+    0px -10px 15px #034c6a inset,  /*上边阴影*/
+    10px 0px 15px #034c6a inset,  /*右边阴影*/
+    0px 10px 15px #034c6a inset;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #034c6a;
+    /*background: url("../img/chart_8.png") no-repeat;*/
+}
+.data_content .data_bottom div .main_title{
+    width: 220px;
+    height: 35px;
+    line-height: 33px;
+    background-color: #034c6a;
+    border-radius: 18px;
+    position: absolute;
+    top: -17px;
+    left:50%;
+    margin-left: -110px;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding-left: 45px;
+}
+.data_content .data_bottom div .main_title img{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+
+.data_content .data_bottom div .main_table tr{
+    height: 42px;
+}
+.data_content .data_bottom div .main_table{
+    width: 100%;
+    margin-top: 25px;
+}
+.data_content .data_bottom div .main_table table{
+    width: 100%;
+}
+.data_content .data_bottom div .main_table thead tr{
+    height: 42px;
+}
+.data_content .data_bottom div .main_table th{
+    font-size: 14px;
+    font-weight: 600;
+    color:#61d2f7;
+    text-align: center;
+}
